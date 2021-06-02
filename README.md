@@ -65,12 +65,26 @@ It was built by [Jan Magiera](https://github.com/J-Magiera) and [Paweł Waśniow
 Raspberry Pi with modified MCP2515 can access CAN network - display and graph data with or without arbitration ID filtering
 or send (and possible brute force in future) packages via CAN network with specific ID and DLC.
 
+## Project images
 
+<details>
+  <summary>Images of GUI and shots from oscilloscope</summary>
+     <h3 align="left">Application's Graphical User Interface</br>
+     <img src="images/GUI_example.png" alt="Scanned object" width="400" height="400"></br></br>
+     <img src="images/GUI_example2.png" alt="Scanned object" width="400" height="400"></br></br>
+      Shots from oscilloscope</br>
+     <img src="images/OSC1.png" alt="Scanned object top view" width="400" height="400"></br></br>
+     <img src="images/OSC2.png" alt="Scanned object side view" width="400" height="400"></br></br>
+     <img src="images/OSC3.png" alt="Scanned object side view" width="400" height="400"></br></br>
+     </h3>
+</details>
 
 ### Built With
 
 * [STM32 Cube MX](https://www.st.com/en/development-tools/stm32cubemx.html)
 * [Python](https://www.python.org/)
+* [MatPlotLib](https://matplotlib.org/)
+* [Raspberry Pi](https://www.raspberrypi.org/)
 * [PyQt](https://www.qt.io/)
 
 
