@@ -138,7 +138,7 @@ In order to use this project, you need:
    ```sh
    >>dtparam=spi=on
    >>dtoverlay=mcp2515-can0,oscillator={x} ,interrupt={y}
-   >>dtoverlay=spi-cs
+   >>dtoverlay=spi0-cs
    ```
 	
 
@@ -146,7 +146,7 @@ In order to use this project, you need:
 
 1. Clone the repo
    ```sh
-   >> git clone https://github.com/J-Magiera/Maze-Generator.git
+   >> git clone https://github.com/J-Magiera/RPI_CAN-controller.git
    ```
 2. Launch main.py
 
